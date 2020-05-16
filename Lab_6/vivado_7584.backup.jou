@@ -1,0 +1,535 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Apr 12 14:47:10 2020
+# Process ID: 7584
+# Current directory: D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11092 D:\ThammakornK\Documents\Chula\3_Junior\2\HW_Lab\Lab_6\Lab_6.xpr
+# Log file: D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/vivado.log
+# Journal file: D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.xpr
+update_compile_order -fileset sources_1
+open_project D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/test_vga/test_vga.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+current_project Lab_6
+open_project D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_4/Lab_4.xpr
+update_compile_order -fileset sources_1
+current_project test_vga
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/test_vga/test_vga.runs/impl_1/vga_test.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/test_vga/test_vga.runs/impl_1/vga_test.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+current_project Lab_6
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+synth_design -rtl -name rtl_1
+close_design
+open_project D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_2/Lab_2.xpr
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_2/Lab_2.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_2/Lab_2.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_project
+current_project Lab_6
+add_files -norecurse -scan_for_includes {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_2/Lab_2.srcs/sources_1/new/quad2SevenSeg.v D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_2/Lab_2.srcs/sources_1/new/clockDivider.v D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_2/Lab_2.srcs/sources_1/new/segmentDec.v D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_2/Lab_2.srcs/sources_1/new/system.v}
+import_files -norecurse {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_2/Lab_2.srcs/sources_1/new/quad2SevenSeg.v D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_2/Lab_2.srcs/sources_1/new/clockDivider.v D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_2/Lab_2.srcs/sources_1/new/segmentDec.v D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_2/Lab_2.srcs/sources_1/new/system.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_project
+open_project D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.srcs/sources_1/imports/new/system.v] -no_script -reset -force -quiet
+remove_files  D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.srcs/sources_1/imports/new/system.v
+add_files -norecurse -scan_for_includes D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.srcs/sources_1/imports/new/sys7seg.v
+update_compile_order -fileset sources_1
+open_project D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.srcs/sources_1/new/vga.v] -no_script -reset -force -quiet
+remove_files  D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.srcs/sources_1/new/vga.v
+file delete -force D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.srcs/sources_1/new/vga.v
+current_project test_vga
+close_project
+current_project Lab_6
+close_project
+current_project Lab_4
+close_project
+open_project D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/HW-Lab-Lab06/HW-Lab-Lab06/Verilog/Lab06/Lab06.xpr
+update_compile_order -fileset sources_1
+open_project D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+current_project Lab06
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:\ThammakornK\Documents\Chula\3_Junior\2\HW_Lab\Lab_6\Lab_6.runs\impl_1\system.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+current_project Lab_6
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+current_project Lab_6_real
+close [ open D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.srcs/sources_1/new/uart.v w ]
+add_files D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.srcs/sources_1/new/uart.v
+close [ open D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.srcs/sources_1/new/vga.v w ]
+add_files D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.srcs/sources_1/new/vga.v
+close [ open D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.srcs/sources_1/new/vga_sync.v w ]
+add_files D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.srcs/sources_1/new/vga_sync.v
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.srcs/sources_1/new/uart.v] -no_script -reset -force -quiet
+remove_files  D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.srcs/sources_1/new/uart.v
+file delete -force D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.srcs/sources_1/new/uart.v
+export_ip_user_files -of_objects  [get_files D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.srcs/sources_1/new/vga.v] -no_script -reset -force -quiet
+remove_files  D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.srcs/sources_1/new/vga.v
+file delete -force D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.srcs/sources_1/new/vga.v
+export_ip_user_files -of_objects  [get_files D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.srcs/sources_1/new/vga_sync.v] -no_script -reset -force -quiet
+remove_files  D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.srcs/sources_1/new/vga_sync.v
+file delete -force D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.srcs/sources_1/new/vga_sync.v
+close_hw
+current_project Lab_6
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+current_project Lab_6_real
+close [ open D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.srcs/sources_1/new/vga.v w ]
+add_files D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.srcs/sources_1/new/vga.v
+export_ip_user_files -of_objects  [get_files D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.srcs/sources_1/new/vga.v] -no_script -reset -force -quiet
+remove_files  D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.srcs/sources_1/new/vga.v
+file delete -force D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.srcs/sources_1/new/vga.v
+add_files -norecurse -scan_for_includes {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.srcs/sources_1/new/vga_test.v D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.srcs/sources_1/new/vga_sync.v}
+import_files -norecurse {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.srcs/sources_1/new/vga_test.v D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.srcs/sources_1/new/vga_sync.v}
+update_compile_order -fileset sources_1
+current_project Lab06
+current_project Lab_6_real
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+close_hw
+open_hw
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.runs/impl_1/vga_test.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.runs/impl_1/vga_test.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+close_hw
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.runs/impl_1/vga_test.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.runs/impl_1/vga_test.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.runs/impl_1/vga_test.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+synth_design -rtl -name rtl_1
+refresh_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.runs/impl_1/vga_test.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.runs/impl_1/vga_test.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.runs/impl_1/vga_test.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+update_compile_order -fileset sources_1
+close_hw
+close_design
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+open_project D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_3/Lab_3.xpr
+update_compile_order -fileset sources_1
+current_project Lab_6_real
+add_files -norecurse -scan_for_includes D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_1/Lab_1.srcs/sources_1/new/DFlipFlop.v
+import_files -norecurse D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_1/Lab_1.srcs/sources_1/new/DFlipFlop.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -norecurse -scan_for_includes D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_3/Lab_3.srcs/sources_1/new/singlePulser.v
+import_files -norecurse D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_3/Lab_3.srcs/sources_1/new/singlePulser.v
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+current_project Lab_3
+current_project Lab_6_real
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.runs/impl_1/vga_test.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.runs/impl_1/vga_test.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+synth_design -rtl -name rtl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+refresh_design
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.runs/impl_1/vga_test.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.runs/impl_1/vga_test.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.runs/impl_1/vga_test.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+close_design
+close [ open D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.srcs/sources_1/new/uart.v w ]
+add_files D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.srcs/sources_1/new/uart.v
+update_compile_order -fileset sources_1
+close [ open D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.srcs/sources_1/new/uart_rx.v w ]
+add_files D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.srcs/sources_1/new/uart_rx.v
+update_compile_order -fileset sources_1
+close [ open D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.srcs/sources_1/new/uart_tx.v w ]
+add_files D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.srcs/sources_1/new/uart_tx.v
+update_compile_order -fileset sources_1
+close [ open D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.srcs/sources_1/new/to_upper.v w ]
+add_files D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.srcs/sources_1/new/to_upper.v
+update_compile_order -fileset sources_1
+close [ open D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.srcs/sources_1/new/top_system.v w ]
+add_files D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6_real/Lab_6_real.srcs/sources_1/new/top_system.v
+update_compile_order -fileset sources_1
+current_project Lab_6
+open_project D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/UART_ECHO-master/UART_ECHO-master/fpga/xilinx/basys3/basys3.xpr
+update_compile_order -fileset sources_1
+current_project Lab_6
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+synth_design -rtl -name rtl_1
+close_design
+close_hw
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+undo
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+close_hw
+open_hw
+close_hw
+current_project Lab_6_real
+current_project Lab_6
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+close_project
+open_project D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/ThammakornK/Documents/Chula/3_Junior/2/HW_Lab/Lab_6/Lab_6.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_project
+current_project Lab_6_real
+close_project
