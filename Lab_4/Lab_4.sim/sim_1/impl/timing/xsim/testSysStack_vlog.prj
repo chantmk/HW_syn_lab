@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"testSysStack_time_impl.v" \
+"../../../../../../Lab_1/Lab_1.srcs/sources_1/new/DFlipFlop.v" \
+"../../../../../../Lab_2/Lab_2.srcs/sources_1/new/clockDivider.v" \
+"../../../../../../Lab_2/Lab_2.srcs/sources_1/new/quad2SevenSeg.v" \
+"../../../../../../Lab_2/Lab_2.srcs/sources_1/new/segmentDec.v" \
+"../../../../../../Lab_3/Lab_3.srcs/sources_1/new/singlePulser.v" \
+"../../../../../Lab_4.srcs/sources_1/new/stackMemIOver.v" \
+"../../../../../Lab_4.srcs/sources_1/new/sysStack.v" \
+"../../../../../Lab_4.srcs/sim_1/new/testSysStack.v" \
+
+# Do not sort compile order
+nosort

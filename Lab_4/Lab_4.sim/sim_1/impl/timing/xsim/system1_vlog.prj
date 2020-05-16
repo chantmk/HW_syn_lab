@@ -1,0 +1,8 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"system1_time_impl.v" \
+"../../../../../Lab_4.srcs/sources_1/new/utilOfgolf.v" \
+"../../../../../Lab_4.srcs/sources_1/new/stackBygolf.v" \
+
+# Do not sort compile order
+nosort
